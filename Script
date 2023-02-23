@@ -1,1 +1,4 @@
 game.StarterGui:SetCore("SendNotification", { Title = "Executed!"; Text = "Your script should load up now."; Icon = "http://www.roblox.com/asset/?id=607866917"; Button1 = "Alright!"; Duration = "5"; })
+
+wait(10)
+game.Players.LocalPlayer:Kick("You've been banned from this experience. Reporter: ROBLOX. Reason: Exploiting isn't allowed!")
